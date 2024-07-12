@@ -1,0 +1,125 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #004d99;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+header .logo {
+    display: inline-block;
+    padding: 0 20px;
+}
+.logo img{
+    width: 20%;
+}
+header nav {
+    display: inline-block;
+    width: 60%;
+    padding: 20px;
+}
+
+header nav ul {
+    list-style: none;
+    
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 15px; 
+     padding: 20px;
+    margin: auto;
+}
+
+header nav ul li a {
+    color:rgb(231, 123, 123);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    width: 100%;
+    margin-top: 10px;
+    background-size: cover;
+}
+.hero img{
+    width: 100%;
+    height: 700px;
+}
+button{
+    width: 25%;
+    background-color: rgb(108, 159, 12);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+ }
+ button:hover{
+    background-color: green;
+ }
+ button:nth-child(odd){
+    background-color: red;
+ }
+ button:nth-child(odd):hover{
+    background-color: rgb(105, 9, 9);
+ }  
+ .bank{
+    text-align: center;
+     margin-top: 20px;
+     border: red;
+     margin: auto;
+     width: 60%;
+     height: 200px;
+  border: 1px solid rgb(18, 5, 2);
+     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+ 
+ 
+  }
+label{
+    font-weight: bold;
+    display: block;
+}
+  input{
+    height: 30px;
+    width: 53%;
+    border-radius: 5px;
+    background-color: rgb(242, 204, 180);
+  }
+
+
+#bank{
+    margin: auto;
+    width: 60%;
+    position: absolute;
+    top:66%;
+    left:49.7%;
+    color: rgb(100, 4, 4);
+    /* border: 1px solid blue; */
+}
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    margin-top: 10px;
+    width: 100%;
+}
